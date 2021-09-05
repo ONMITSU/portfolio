@@ -16,7 +16,7 @@ export default function About() {
                     </ul>
                     <p style={{marginTop: 30}}>
                         <Button variant="outline-dark" style={{marginRight: 15}} href="https://www.linkedin.com/in/yossapon-jantarote-4328b5194/" target="_blank"><IoLogoLinkedin size="2em"/></Button>
-                        <Button variant="outline-dark" href="mailto:ja.yossapon@gmail.com" target="_blank"><IoMail size="2em"/></Button>
+                        {/* <Button variant="outline-dark" href="mailto:ja.yossapon@gmail.com" target="_blank"><IoMail size="2em"/></Button> */}
                     </p>
                 </div>
             </div>
