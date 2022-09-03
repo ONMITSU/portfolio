@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
     new Experience({
         companyName: "Bangkok Payment Solutions Company Limited",
         position: "Developer (Internship)",
-        detail: "Be part of team to development web application called EWP, for allow users make request to install EDC easier and reduce human errors.",
+        detail: "Be part of a team to development web application called EWP, for allow users make request to install EDC easier and reduce human errors.",
         skills: ["C#", "LINQ", "SQL", "Entity Framework", "JavaScript"],
         startDate: new Date("2020-06-01"),
         endDate: new Date("2020-09-30"),
@@ -22,10 +22,18 @@ export const experiences: Experience[] = [
     new Experience({
         companyName: "Bangkok Payment Solutions Company Limited",
         position: "Developer",
-        detail: "Be part of team to development software called CDA, for manage configulation of Bangkok Yellow Line.",
+        detail: "Be part of a team to development software called CDA, for manage configulation of Bangkok Yellow Line.",
         skills: ["C#", "SQL", "Windows Service"],
-        startDate: new Date("2021-05-21")
-    }),    
+        startDate: new Date("2021-05-21"),
+        endDate: new Date("2022-05-13"),
+    }),
+    new Experience({
+      companyName: "IT One",
+      position: "Application Development Analyst",
+      detail: "Be part of a team as a software developer to develop and deliver software products that meet business needs.",
+      skills: ["C#", "LINQ", "SQL", ".NET Core"],
+      startDate: new Date("2021-06-01"),
+  }),
 ]
 
 
